@@ -40,31 +40,6 @@ The four indicators shared by the compact surface-water and groundwater models a
 
 The released model files are intended for WQI reconstruction, model verification, and methodological reference. They should not be used as independent replacements for regulatory water-quality assessment.
 
-## Suggested repository structure
-
-```text
-.
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── models/
-│   ├── surface_water/
-│   │   ├── SW-FULL.cbm
-│   │   ├── SW-16.cbm
-│   │   └── F4-SW.cbm
-│   └── groundwater/
-│       ├── GW-FULL.cbm
-│       ├── GW-14.cbm
-│       └── F4-GW.cbm
-├── metadata/
-│   ├── model_information.json
-│   └── feature_columns.json
-└── data/
-    ├── surface_water_independent_test_deidentified.csv
-    └── groundwater_independent_test_deidentified.csv
-```
-
-File names may differ slightly from those shown above. Please refer to the metadata files for the corresponding model type, feature names, and required feature order.
 
 ## Independent test datasets
 
